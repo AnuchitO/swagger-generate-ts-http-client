@@ -1,0 +1,14 @@
+{
+  "name": "swagger-generate-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate:api:client": "swagger-generate-ts-client -s ./swagger.json -t ./api/types.ts -o ./api/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "swagger-generate-ts-client": "^1.0.4"
+  }
+}
